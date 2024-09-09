@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    background-color: aquamarine;
+}
+
+/*header stylings*/
+h1{
+    margin: 1.5rem;
+    font-size: 4rem;
+    font-style: oblique;
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+h2{
+    margin: 1rem;
+    font-size: 2rem;
+    font-style: oblique;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: #333 0.1rem solid;
+    
+}
+
+
+
+/*grid stylings*/
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+}  
+
+#container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-wrap: wrap;
+}
+
+#container3{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+/*text stylings*/
+.institution{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align:center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: "Merriweather", serif;
+}
+.qualification{
+    font-size: 1.25rem;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+

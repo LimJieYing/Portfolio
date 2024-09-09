@@ -1,0 +1,48 @@
+/*grid stylings*/
+#container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'date1'
+    'school1'
+    'container2'
+    'date2'
+    'school2'
+    'results2'
+    'date3'
+    'school3'
+    'results3'
+    ;
+    grid-gap: 1rem;
+    padding: 1rem;
+}  
+
+#date1{
+    grid-area: date1;
+}
+#date2{
+    grid-area: date2;
+}
+#date3{
+    grid-area: date3;
+}
+#school1{
+    grid-area: school1;
+}
+#school2{
+    grid-area: school2;
+}
+#school3{
+    grid-area: school3;
+}
+#container2{
+    grid-area: container2;
+}
+#results2{
+    grid-area: results2;
+}
+#container3{
+    grid-area: results3;
+}
+
+

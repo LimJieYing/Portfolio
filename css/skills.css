@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+/*header stylings*/
+h1{
+    margin: 1.5rem;
+    font-size: 4rem;
+    font-style: oblique;
+    text-align: center;
+    font-weight: 900;
+}
+
+/*table stylings*/
+
+table{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    border: 0.1rem solid black;
+    border-collapse: collapse;
+}
+
+/*text Stylings*/
+caption{
+    font-size: 2.5rem;;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 600;
+    border: 0.1rem solid black;
+    text-wrap: nowrap;
+    padding: 0rem 2rem 0rem 2rem; 
+}
+td{
+    font-size: 1.25rem;
+    padding: 2rem;
+    font-family: "Anta", sans-serif;
+    text-wrap: wrap;
+}
+
+/*flexbox stylings*/
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+}
+figure{
+    margin: 1rem;
+}
+
+/*image stylings*/
+
+img{
+    width: 2.5rem;
+    border: none;
+}

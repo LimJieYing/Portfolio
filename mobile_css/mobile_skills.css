@@ -1,0 +1,15 @@
+#container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    align-self: auto;
+    max-width: 100%;
+    margin-left: auto;
+}
+
+#container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-wrap: wrap;
+}

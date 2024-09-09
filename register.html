@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="javascript/validateRegister.js"defer></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <button>
+                        <a href="portfolio.html">
+                            <img class="logo" src="images/JYLogo.png" alt="JY Logo">
+                        </a>
+                    </button>
+                </li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="viewBlog.php">Blog</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <form action="register.php" method="post" id="registerForm">
+        <fieldset>
+            <legend>
+                Register
+            </legend>
+
+            <p>
+                <label for="Firstname">First Name:</label>
+                <br>
+                <input type="text" name="Firstname" id="Firstname" required>
+            </p>
+
+            <p>
+                <label for="Surname">Surname:</label>
+                <br>
+                <input type="text" name="Surname" id="Surname" required>
+            </p>
+
+            <p>
+                <label for="Email">Email:</label>
+                <br>
+                <input type="email" name="Email" id="Email" required>
+            </p>
+
+            <p>
+                <label for="Password">Password:</label>
+                <br>
+                <input type="password" name="Password" id="Password" required>
+            </p>
+
+            <p>
+                <label for="ConfirmPassword">Confirm Password:</label>
+                <br>
+                <input type="password" name="ConfirmPassword" id="ConfirmPassword" required>
+            </p>
+
+            <p>
+                <button type="submit">
+                    Sign up
+                </button>
+
+                <button type="reset">
+                    Reset
+                </button>
+                
+            </p>
+
+        </fieldset>   
+        <p>
+            Already have an account? <a href="login.php">Please Login here!</a>
+        </p>
+    </form>
+        
+
+    <footer>
+        <p>
+            <i>Copyright &#169; 2024 Lim Jie Ying</i>
+        </p>
+        <p>
+            <a href="#top">Back to top</a>
+        </p>
+    </footer>
+
+
+</body>
+</html>

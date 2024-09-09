@@ -1,0 +1,30 @@
+/*general button stylings*/
+button, #edit{
+    padding:1rem;
+    margin:1rem;
+    font-size: 2rem;
+    border-radius: 0.3rem;
+}
+
+/*edit button stylings*/
+#edit{
+    border: 0.1rem solid black;
+    color:black;
+    background-color: lightgreen;
+}
+
+#edit:hover{
+    background-color: black;
+    color: white;
+}
+
+/*sumbit button stylings*/
+#submitButton{
+    background-color: red;
+    color: yellow;
+}
+
+#submitButton:hover{
+    background-color: black;
+    color: white;
+}

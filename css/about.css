@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+
+
+/*h1 Stylings */
+h1{
+    margin: 1.5rem;
+    font-size: 4rem;
+    font-style: oblique;
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+
+
+/*Text stylings*/
+aside{
+    max-width: 100%;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    font-style:oblique;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #333;
+}
+
+#CV{
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*figure stylings*/
+.portrait{
+    max-width: 100%;
+    margin-left: 1rem;
+    border: 0.1rem;
+    border-color: #333;
+    border-style: groove;
+    border-radius: 1.5rem;
+}
+
+figcaption{
+    font-size: 1.25rem;
+    margin-left: 1rem;
+    font-family: "Petit Formal Script", cursive;
+    font-style: italic;
+}
+
+
+
+/*grid stylings*/
+#container{
+    display: grid;
+    grid-template-areas: 
+    'title title title'
+    'portrait aboutMyself aboutMyself'
+    'portrait aboutMyself aboutMyself'
+    'CV CV CV';
+    grid-gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-content: center;
+}
+
+#title{
+    grid-area: title;
+}
+
+#portrait{
+    grid-area: portrait;
+}
+
+#aboutMyself{
+    grid-area: aboutMyself;
+}
+
+#CV{
+    grid-area: CV;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+#monthSelector {
+    padding: 0rem 0rem 0.5rem 1rem !important;
+}
+
+/*text stylings*/
+article{
+    margin:2rem;
+    border: 0.1rem solid black;
+    max-width: 100%;
+}
+h1{
+    text-align:center;
+    font-size: 3rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-style: oblique;
+}
+
+
+h2{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+aside{
+    font-size: 1.5rem;
+    font-style:normal;
+}
+
+section p{
+    font-size: 1.25rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-style: normal;
+    text-wrap: wrap;
+}
+
+/* flex stylings */
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    margin: 0.5rem 0.8rem 0.5rem 0.8rem;
+}
+
+#add{
+    font-size: 1.5rem;
+    color: black;
+    background-color: greenyellow;
+    margin: 0.5rem;
+}
+
+
+
+

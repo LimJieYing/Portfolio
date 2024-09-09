@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/*flex stylings*/
+.flex_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+/*h stylings*/
+h1{
+    margin: 1.5rem;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+h2{
+    margin: 1.5rem  0rem 0rem 1.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+h3, .date{
+    margin: 1rem  1rem 0rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+/*text Stylings*/
+article li, section{
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: "PT Serif", serif;
+    margin-left: 1rem;
+}
+
+#contact{
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: "PT Serif", serif;
+    text-align: center;
+}
+

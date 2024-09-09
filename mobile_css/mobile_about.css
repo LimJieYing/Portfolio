@@ -1,0 +1,29 @@
+/*grid stylings*/
+#container{
+    display: grid;
+    grid-template-areas: 
+    'title '
+    'portrait '
+    'aboutMyself '
+    'CV';
+    grid-gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-content: center;
+}
+
+#title{
+    grid-area: title;
+}
+
+#portrait{
+    grid-area: portrait;
+}
+
+#aboutMyself{
+    grid-area: aboutMyself;
+}
+
+#CV{
+    grid-area: CV;
+}

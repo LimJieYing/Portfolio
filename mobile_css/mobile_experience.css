@@ -1,0 +1,28 @@
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    'title title title '
+    'date date date '
+    'description description description ';
+    grid-gap: 0.5rem;
+    max-width: 100%;
+    
+}
+
+.date
+{
+    grid-area: date;
+    text-wrap: nowrap;
+    margin-left: 1.25rem;
+}
+
+.title{
+    grid-area: title;
+    text-wrap: wrap;
+}
+
+.description{
+    grid-area: description;
+    text-wrap: wrap;
+}

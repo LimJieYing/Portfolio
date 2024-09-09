@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*header stylings*/
+h1{
+    margin: 1.5rem;
+    font-size: 4rem;
+    font-style: oblique;
+    text-align: center;
+    font-weight: 900;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+/*date Stylings*/
+.date{
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Comfortaa", sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+/*text stylings*/
+main p{
+    margin: 0.5rem 0rem 0.5rem 2rem; 
+    font-size: 1.1rem;
+    font-family: "Urbanist", sans-serif;
+    max-width: 100%;
+    text-wrap: wrap;
+
+}
+p strong{
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+
+/*grid stylings*/
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    max-width: 100%;
+    padding-bottom:1rem ;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: 
+    'title title title title date'
+    'description description description description description';
+    grid-gap: 0.5rem;
+    max-width: 100%;
+    
+}
+
+.date
+{
+    grid-area: date;
+    text-wrap: nowrap;
+}
+
+.title{
+    grid-area: title;
+    text-wrap: wrap;
+}
+
+.description{
+    grid-area: description;
+    text-wrap: wrap;
+}
+
+
+

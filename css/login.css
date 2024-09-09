@@ -1,0 +1,57 @@
+
+/*Form stylings*/
+form{
+    max-width: 30%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+fieldset{
+    border: #333 solid 0.1rem;
+}
+
+
+
+/*text stylings*/
+legend{
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+    border: #333 solid 0.1rem;
+    padding: 0.2rem 3rem 0.2rem 3rem;
+    border-radius: 0.3rem;
+    background-color: greenyellow;
+}
+
+label{
+    font-size: 1.5rem;
+} 
+
+input{
+    margin-bottom: 0.5rem;
+}
+
+/*button stylings*/
+button{
+    background-color: greenyellow;
+    padding: 0.5rem;
+    margin: 1rem 0.5rem 1rem 0rem;
+    border: #333 solid 0.1rem;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+div{
+    text-align: center;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+
+}
+form p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
